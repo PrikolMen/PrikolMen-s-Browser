@@ -1,0 +1,19 @@
+name: PrikolMen's Browser
+type: project
+version: 1.0.0
+plugins:
+- App
+deps:
+  dn-app-framework: ~1.0.0
+  dn-debug-bundle: ~0.1.0
+  jphp-gui-jfx-win: ^11.0.0
+  jphp-gui-jfx-linux: ^11.0.0
+  jphp-gui-desktop-ext: '*'
+  jphp-zend-ext: '*'
+  dn-jfoenix-bundle: ^1.0.0
+  dn-zip-bundle: ~1.0.0
+sources:
+- src_generated
+- src
+includes:
+- JPHP-INF/.bootstrap

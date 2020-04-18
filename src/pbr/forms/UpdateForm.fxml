@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="296" prefWidth="632" styleClass="">
+  <children>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="64" id="image" layoutX="8" layoutY="0" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="72">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label" layoutX="72" layoutY="0" prefHeight="64" prefWidth="528" styleClass="label " text="Обновление Ezzy Браузера " textAlignment="CENTER" textFill="#1746b0" underline="false" wrapText="false">
+      <font>
+        <Font name="Arial Black" size="32"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" graphic="" id="data-label" visible="1"/>
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelAlt" layoutX="8" layoutY="64" prefHeight="17" prefWidth="80" styleClass="label " text="Новая версия:" textAlignment="LEFT" textFill="#e6e6e6" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-labelAlt" visible="1"/>
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelVersion" layoutX="88" layoutY="64" prefHeight="16" prefWidth="96" styleClass="label " text="0" textAlignment="LEFT" textFill="#e6e6e6" underline="false" wrapText="false">
+      <font>
+        <Font name="System Bold" size="12"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-labelVersion" visible="1"/>
+    <TextArea editable="false" focusTraversable="true" id="description" layoutX="8" layoutY="120" prefColumnCount="40" prefHeight="128" prefWidth="616" promptText="" styleClass="text-input text-area " text="" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </TextArea>
+    <Data cursor="DEFAULT" enabled="1" id="data-description" visible="1"/>
+    <ProgressBar focusTraversable="false" id="progressBar" layoutX="8" layoutY="256" prefHeight="32" prefWidth="616" progress="0" styleClass="progress-bar "/>
+    <Data cursor="DEFAULT" enabled="1" id="data-progressBar" visible=""/>
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelCurrent" layoutX="8" layoutY="80" prefHeight="17" prefWidth="352" styleClass="label " text="Текущая версия:" textAlignment="LEFT" textFill="#e6e6e6" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-labelCurrent" visible="1"/>
+    <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelStatus" layoutX="8" layoutY="256" prefHeight="32" prefWidth="616" styleClass="label " text="Подготовка..." textAlignment="CENTER" textFill="#333333" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-labelStatus" visible=""/>
+    <FlatButton alignment="CENTER" color="#000000" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#1a1a1a" id="buttonClose" layoutX="8" layoutY="264" prefHeight="24" prefWidth="304" styleClass="x-flat-button " text="Отменить Обновление" textAlignment="CENTER" textFill="#b31a1a" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </FlatButton>
+    <Data cursor="DEFAULT" enabled="1" id="data-buttonClose" visible="1"/>
+    <FlatButton alignment="CENTER" color="#000000" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#1a1a1a" id="buttonDownload" layoutX="320" layoutY="264" prefHeight="24" prefWidth="304" styleClass="x-flat-button " text="Установить Обновление" textAlignment="CENTER" textFill="#336633" underline="false" wrapText="false">
+      <font>
+        <Font name="System Bold" size="14"/>
+      </font>
+    </FlatButton>
+    <Data cursor="DEFAULT" enabled="1" id="data-buttonDownload" visible="1"/>
+    <com.jfoenix.controls.JFXSpinner focusTraversable="false" id="progressIndicator" layoutX="0" layoutY="0" prefHeight="64" prefWidth="80" progress="-1" radius="128" styleClass="progress-indicator jfx-spinner "/>
+    <Data cursor="DEFAULT" enabled="1" id="data-progressIndicator" visible=""/>
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label3" layoutX="8" layoutY="96" prefHeight="17" prefWidth="400" styleClass="label " text="Исполняемый Файл: " textAlignment="LEFT" textFill="#e6e6e6" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-label3" visible="1"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-image" image=".data/img/EZ.png" visible="1"/>
+  </children>
+</AnchorPane>

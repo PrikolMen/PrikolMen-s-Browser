@@ -1,0 +1,14 @@
+{
+  "props": {
+    "author": "PrikolMen",
+    "version": "1.0"
+  },
+  "components": {
+    "jdownloader": {
+      "type": "bundle\\jurl\\jURLDownloader",
+      "x": 32,
+      "y": 16,
+      "props": []
+    }
+  }
+}

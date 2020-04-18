@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="256" prefWidth="272" styleClass="">
+  <children>
+    <com.jfoenix.controls.JFXTextField alignment="CENTER_LEFT" editable="true" focusColor="#4059a9" focusTraversable="true" id="email" layoutX="8" layoutY="80" prefColumnCount="12" prefHeight="32" prefWidth="248" promptText="Почта" text="" unFocusColor="#4d4d4d">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+      <styleClass xmlns:fx="http://javafx.com/fxml">
+        <String fx:value="text-input"/>
+        <String fx:value="text-field"/>
+        <String fx:value="jfx-text-field"/>
+      </styleClass>
+    </com.jfoenix.controls.JFXTextField>
+    <Data cursor="DEFAULT" enabled="1" id="data-email" visible="1"/>
+    <LabelEx alignment="CENTER_LEFT" autoSize="true" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label6" layoutX="8" layoutY="8" prefHeight="53.203125" prefWidth="258.4765625" styleClass="label " text="Авторизация" textAlignment="LEFT" textFill="#666666" underline="false" wrapText="false">
+      <font>
+        <Font name="System Bold" size="40"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-label6" visible="1"/>
+    <com.jfoenix.controls.JFXPasswordField alignment="CENTER_LEFT" editable="true" focusColor="#b31a1a" focusTraversable="true" id="pass" layoutX="8" layoutY="136" prefColumnCount="12" prefHeight="32" prefWidth="248" promptText="Пароль" text="" unFocusColor="#4d4d4d">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+      <styleClass xmlns:fx="http://javafx.com/fxml">
+        <String fx:value="text-input"/>
+        <String fx:value="text-field"/>
+        <String fx:value="password-field"/>
+        <String fx:value="jfx-password-field"/>
+      </styleClass>
+    </com.jfoenix.controls.JFXPasswordField>
+    <Data cursor="DEFAULT" enabled="1" id="data-pass" visible="1"/>
+    <FlatButton alignment="CENTER" borderRadius="3" clickColor="#6680e6" color="#334db3" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#4d66cc" id="button" layoutX="152" layoutY="184" prefHeight="32" prefWidth="112" styleClass="x-flat-button " text="Войти" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </FlatButton>
+    <Data cursor="DEFAULT" enabled="1" id="data-button" visible="1"/>
+    <com.jfoenix.controls.JFXCheckBox alignment="CENTER_LEFT" checkedColor="#0f9d58" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="pass_and_email_save" layoutX="16" layoutY="184" prefHeight="32" prefWidth="104" styleClass="check-box jfx-check-box " text="Запомнить" textAlignment="LEFT" textFill="#666666" unCheckedColor="#5a5a5a" underline="false" wrapText="false">
+      <font>
+        <Font name="System Bold" size="12"/>
+      </font>
+    </com.jfoenix.controls.JFXCheckBox>
+    <Data cursor="DEFAULT" enabled="1" id="data-pass_and_email_save" visible="1"/>
+    <Hyperlink alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="link3" layoutX="8" layoutY="224" prefHeight="21" prefWidth="256" style="-fx-text-fill: #2180c4;" styleClass="hyperlink " text="Регистрация" textAlignment="LEFT" wrapText="false">
+      <font>
+        <Font name="System Bold" size="15"/>
+      </font>
+    </Hyperlink>
+    <Data cursor="DEFAULT" enabled="1" id="data-link3" visible="1"/>
+  </children>
+</AnchorPane>

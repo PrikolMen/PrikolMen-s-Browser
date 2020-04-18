@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="608" prefWidth="1136" styleClass="">
+  <children>
+    <Panel backgroundColor="#1a1a1a" borderColor="#1a3399" borderRadius="0" borderStyle="SOLID" borderWidth="1" focusTraversable="false" id="browser_panel" layoutX="0" layoutY="0" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="608" prefWidth="1136" styleClass="" titleColor="#dcdcdc" titleOffset="15" titlePosition="TOP_LEFT">
+      <children/>
+      <titleFont>
+        <Font name="System Regular" size="12"/>
+      </titleFont>
+    </Panel>
+    <ProgressBar AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" focusTraversable="false" id="progressBar" layoutX="0" layoutY="0" prefHeight="48" prefWidth="1136" progress="0" styleClass="progress-bar "/>
+    <TabPaneEx AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="40" focusTraversable="true" id="tabs" layoutX="0" layoutY="40" prefHeight="568" prefWidth="1136" styleClass="tab-pane " tabClosingPolicy="ALL_TABS"/>
+    <Panel AnchorPane.rightAnchor="48" AnchorPane.topAnchor="8" backgroundColor="#1a1a1a" borderColor="#334db3" borderRadius="0" borderStyle="SOLID" borderWidth="1" focusTraversable="false" id="vpn" layoutX="1032" layoutY="8" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="33" prefWidth="56" styleClass="" titleColor="#dcdcdc" titleOffset="15" titlePosition="TOP_LEFT">
+      <children>
+        <LabelEx AnchorPane.rightAnchor="3" AnchorPane.topAnchor="-1" alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label" layoutX="4" layoutY="0" prefHeight="17" prefWidth="48" style="-fx-color: blue;" styleClass="label " text="VPN" textAlignment="CENTER" textFill="#334db3" underline="false" wrapText="false">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </LabelEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-label" visible="1"/>
+        <LabelEx AnchorPane.rightAnchor="3" AnchorPane.topAnchor="7" alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="" focusTraversable="false" graphicTextGap="4" id="vpnstaustext" layoutX="4" layoutY="8" prefHeight="24" prefWidth="48" styleClass="label " text="ВЫКЛ" textAlignment="LEFT" textFill="#334db3" underline="false" wrapText="false">
+          <font>
+            <Font name="System Bold" size="14"/>
+          </font>
+        </LabelEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-vpnstaustext" visible="1"/>
+      </children>
+      <titleFont>
+        <Font name="System Regular" size="12"/>
+      </titleFont>
+    </Panel>
+    <Data cursor="DEFAULT" enabled="1" id="data-progressBar" visible="1"/>
+    <ImageViewEx AnchorPane.leftAnchor="8" autoSize="false" centered="true" focusTraversable="false" height="32" id="image" layoutX="8" layoutY="8" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="32">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-image" image=".data/img/ez.png" visible="1"/>
+    <FlatButton AnchorPane.leftAnchor="48" alignment="CENTER" borderRadius="90" color="#334db3" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#001a80" id="button5" layoutX="48" layoutY="16" prefHeight="16" prefWidth="16" styleClass="x-flat-button " text="&lt;" textAlignment="CENTER" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </FlatButton>
+    <Data cursor="DEFAULT" enabled="1" id="data-button5" visible="1"/>
+    <FlatButton AnchorPane.leftAnchor="72" alignment="CENTER" borderRadius="90" color="#2d4190" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#001a80" id="button7" layoutX="72" layoutY="16" prefHeight="16" prefWidth="16" rotate="96.585365853659" styleClass="x-flat-button " text="↻" textAlignment="CENTER" underline="false" wrapText="false">
+      <font>
+        <Font name="System Bold" size="12"/>
+      </font>
+    </FlatButton>
+    <Data cursor="DEFAULT" enabled="1" id="data-button7" visible="1"/>
+    <FlatButton AnchorPane.leftAnchor="96" alignment="CENTER" borderRadius="90" color="#334db3" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#001a80" id="button6" layoutX="96" layoutY="16" prefHeight="16" prefWidth="16" styleClass="x-flat-button " text="&gt;" textAlignment="CENTER" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </FlatButton>
+    <Data cursor="DEFAULT" enabled="1" id="data-button6" visible="1"/>
+    <TextField AnchorPane.leftAnchor="120" AnchorPane.rightAnchor="112" alignment="CENTER_LEFT" editable="true" focusTraversable="true" id="browserUrl" layoutX="120" layoutY="13" prefColumnCount="12" prefHeight="25" prefWidth="904" promptText="Укажите URL" styleClass="text-input text-field " text="">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </TextField>
+    <Data cursor="DEFAULT" enabled="1" id="data-browserUrl" visible="1"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-vpn" visible="1"/>
+    <com.jfoenix.controls.JFXSpinner AnchorPane.bottomAnchor="4.498291015625" AnchorPane.leftAnchor="7" focusTraversable="false" id="loadState" layoutX="7" layoutY="579.50170898438" prefHeight="24" prefWidth="24" progress="-1" radius="16" styleClass="progress-indicator jfx-spinner "/>
+    <Data cursor="DEFAULT" enabled="1" id="data-loadState" visible=""/>
+    <LabelEx AnchorPane.bottomAnchor="7" AnchorPane.rightAnchor="0" alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="status_label" layoutX="1040" layoutY="584" prefHeight="16" prefWidth="96" styleClass="label " text="Browser Status" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="" id="data-status_label" visible=""/>
+    <FlatButton AnchorPane.rightAnchor="8" AnchorPane.topAnchor="8" alignment="CENTER" borderRadius="90" color="#1a1a1a" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#000000" id="button" layoutX="1096" layoutY="8" prefHeight="32" prefWidth="32" styleClass="x-flat-button " text="" textAlignment="CENTER" textFill="#334db3" underline="false" wrapText="false">
+      <font>
+        <Font name="Segoe MDL2 Assets" size="16"/>
+      </font>
+    </FlatButton>
+    <Data cursor="DEFAULT" enabled="1" id="data-button" visible="1"/>
+    <FlatButton AnchorPane.rightAnchor="8" AnchorPane.topAnchor="48" alignment="CENTER" borderRadius="90" color="#1a1a1a" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#000000" id="add" layoutX="1112" layoutY="48" prefHeight="17" prefWidth="16" styleClass="x-flat-button " text="+" textAlignment="CENTER" textFill="#334db3" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </FlatButton>
+    <Data cursor="DEFAULT" enabled="1" id="data-add" visible="1"/>
+    <Separator AnchorPane.leftAnchor="8" AnchorPane.rightAnchor="8" focusTraversable="false" id="separator" layoutX="8" layoutY="40" orientation="HORIZONTAL" prefHeight="8" prefWidth="1120" styleClass="separator "/>
+    <Data cursor="DEFAULT" enabled="1" id="data-separator" visible="1"/>
+    <Data cursor="DEFAULT" draggable="ALL" enabled="1" id="data-tabs" visible="1"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-browser_panel" visible="1"/>
+  </children>
+</AnchorPane>
