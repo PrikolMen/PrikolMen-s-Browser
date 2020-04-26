@@ -8,7 +8,7 @@
       "type": "bundle\\jurl\\jURLDownloader",
       "x": 32,
       "y": 16,
-      "props": []
+      "props": {}
     }
   }
 }

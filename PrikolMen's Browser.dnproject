@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<project author="prikolmen" authorOS="Windows 10" createdAt="1563828919343" ideName="DevelNext" ideVersion="17.0.0 (SNAPSHOT)" ideVersionHash="2018013112" name="PrikolMen's Browser" packageName="pbr" template="ide\project\templates\DefaultGuiProjectTemplate" updatedAt="1583419414234">
+<project author="prikolmen" authorOS="Windows 10" createdAt="1563828919343" ideName="DevelNext" ideVersion="16.7.0" ideVersionHash="2017103112" name="PrikolMen's Browser" packageName="pbr" template="ide\project\templates\DefaultGuiProjectTemplate" updatedAt="1587879620201">
   <tree>
     <expanded>
-      <path src=""/>
+    <path src=""/>
       <path src="/src"/>
       <path src="/src/.data"/>
       <path src="/src/.data/img"/>
@@ -14,20 +14,23 @@
     </expanded>
   </tree>
   <openedFiles>
-    <file src="PrikolMen's Browser.dnproject"/>
+  <file src="PrikolMen's Browser.dnproject"/>
     <file src="src/pbr/modules/MainModule.php"/>
     <file src="src/pbr/modules/DownloadModule.php"/>
     <file src="src/pbr/forms/DownloadForm.php"/>
-    <file selected="1" src="src/pbr/forms/proxysite.php"/>
-    <file src="src/pbr/modules/AppModule.php"/>
+    <file src="src/pbr/forms/proxysite.php"/>
+    <file selected="1" src="src/pbr/modules/AppModule.php"/>
+    <file src="src/pbr/forms/MainForm.php"/>
   </openedFiles>
   <files/>
   <behaviours>
+  <behaviour class="ide\project\behaviours\BundleProjectBehaviour"/>
     <behaviour class="ide\project\behaviours\PhpProjectBehaviour"/>
     <behaviour class="ide\project\behaviours\JavaPlatformBehaviour"/>
     <behaviour class="ide\project\behaviours\GuiFrameworkProjectBehaviour"/>
     <behaviour class="ide\project\behaviours\RunBuildProjectBehaviour"/>
     <behaviour class="ide\project\behaviours\ShareProjectBehaviour"/>
     <behaviour class="ide\project\behaviours\BackupProjectBehaviour"/>
+    <behaviour class="ide\project\behaviours\GradleProjectBehaviour"/>
   </behaviours>
 </project>

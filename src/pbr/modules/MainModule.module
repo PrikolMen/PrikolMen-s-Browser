@@ -1,6 +1,12 @@
 {
   "props": [],
   "components": {
+    "jdownloader": {
+      "type": "bundle\\jurl\\jURLDownloader",
+      "x": 368,
+      "y": 16,
+      "props": {}
+    },
     "configFile": {
       "type": "script\\FileScript",
       "x": 128,
@@ -9,12 +15,6 @@
         "path": "browser.bin",
         "watch": "1"
       }
-    },
-    "jdownloader": {
-      "type": "bundle\\jurl\\jURLDownloader",
-      "x": 368,
-      "y": 16,
-      "props": []
     },
     "cfg": {
       "type": "script\\storage\\IniStorage",
